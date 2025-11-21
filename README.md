@@ -32,7 +32,17 @@ The form consists of the following input fields:
 
 • Deadline
 
-⭐ Benefits of Using JsonPowerDB
+🔑 Technologies Used
+
+• HTML & Bootstrap (Frontend UI)
+
+• JavaScript & jQuery (Client logic)
+
+• JsonPowerDB (NoSQL Database)
+
+• AJAX REST API calls
+
+### *Benefits of Using JsonPowerDB*
 
 JsonPowerDB (JPDB) is used as the backend database due to the following advantages:
 
@@ -65,3 +75,78 @@ JsonPowerDB (JPDB) is used as the backend database due to the following advantag
 • Ideal for small apps, micro projects, and academic assignments
 
 • Quick to understand and implement
+
+#### Release History (release of your JsonPowerDB related code on Github) 
+
+
+» v1.0 — Initial Release (21 Nov 2025)
+
+• Implemented a complete Project Management System using JsonPowerDB.
+
+• Features included:
+
+• Add new project entries (Project ID as Primary Key)
+
+• Fetch existing records based on Project ID
+
+• Update existing records
+
+• Form validation for required fields
+
+• Auto-handling of rec_no using localStorage
+
+• Technologies used:
+
+• HTML, Bootstrap 3, JavaScript, jQuery
+
+• JsonPowerDB REST API (PUT, GET, UPDATE)
+
+• Successfully connected to:
+
+• Database: COLLEGE-DB
+
+• Table: PROJECT-TABLE
+
+»  v1.1 — UI and Stability Improvements
+
+• Improved form field behavior and reset mechanism.
+
+• Disabled/Enabled buttons based on record state:
+
+• Save enabled when no record exists
+
+• Update enabled when record already exists
+
+• Added better user flow:
+
+• Cursor auto-focus handling
+
+• Clear form reset behavior
+
+»  v1.2 — Code Optimization
+
+• Modularized JSON creation and form validation logic.
+
+• Separated JavaScript logic into project.js.
+
+• Cleaned unused code and improved variable naming for readability.
+
+»  v1.3 — Final Stable Release
+
+• Fully stable and production-ready version.
+
+• Complete working implementation of:
+
+•• Save (insert new record)
+
+•• Update (modify existing record)
+
+•• Reset (clear form and refresh state)
+
+• Robust form validation for all required project fields.
+
+• Seamless interaction with JsonPowerDB using REST API.
+
+• Auto-handling of rec_no via Local Storage for update operations.
+
+ •Improved user experience with dynamic button enabling/disabling.
