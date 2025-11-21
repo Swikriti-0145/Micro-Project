@@ -145,8 +145,5 @@ JsonPowerDB (JPDB) is used as the backend database due to the following advantag
 
 • Robust form validation for all required project fields.
 
-• Seamless interaction with JsonPowerDB using REST API.
+##### Screenshots:
 
-• Auto-handling of rec_no via Local Storage for update operations.
-
- •Improved user experience with dynamic button enabling/disabling.
