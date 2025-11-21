@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Management Form — COLLEGE-DB</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery (must load BEFORE project.js) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    body { padding: 20px; }
+    .panel { padding: 20px; }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="text-center">Project Management — Project Entry</h2>
+
+    <div class="panel panel-default">
+      <form id="projForm" method='get' >
+
+        <!-- Project ID -->
+        <div class="form-group">
+          <label>Project ID (Primary Key)</label>
+          <input type="text" id="projId" class="form-control" onchange="getProj()">
+        </div>
+
+        <!-- Project Name -->
+        <div class="form-group">
+          <label>Project Name</label>
+          <input type="text" id="projName" class="form-control">
+        </div>
+
+        <!-- Assigned To -->
+        <div class="form-group">
+          <label>Assigned To</label>
+          <input type="text" id="assignedTo" class="form-control">
+        </div>
+
+        <!-- Assignment Date -->
+        <div class="form-group">
+          <label>Assignment Date</label>
+          <input type="date" id="assignDate" class="form-control">
+        </div>
+
+        <!-- Deadline -->
+        <div class="form-group">
+          <label>Deadline</label>
+          <input type="date" id="deadline" class="form-control">
+        </div>
+
+        <div class="form-group text-center">
+          <button type="button" id="saveBtn" class="btn btn-primary btn-lg"  onclick="saveData()" disabled>Save</button>
+          <button type="button" id="updateBtn" class="btn btn-primary btn-lg" onclick="updateData()" disabled>Update</button>
+          <button type="button" id="resetBtn" class="btn btn-default btn-lg" onclick="resetForm()" disabled>Reset</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- JPDB Commons Script (must load BEFORE project.js) -->
+  <script type='text/javascript' src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+
+  <!-- Your JavaScript File (loads LAST to ensure all libs are loaded) -->
+  <script type='text/javascript' src="project.js"></script>
+
+</body>
+</html>
