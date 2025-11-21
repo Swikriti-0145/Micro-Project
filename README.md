@@ -147,4 +147,4 @@ JsonPowerDB (JPDB) is used as the backend database due to the following advantag
 
 ##### Screenshots:
 
-![image alt](Screenshot 2025-11-21 190537.png)
+![image alt](https://github.com/Swikriti-0145/Micro-Project/blob/f86b7575b2aaf666579385353a490a041db2e164/Screenshot%202025-11-21%20190537.png)
